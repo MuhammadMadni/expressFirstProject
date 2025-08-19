@@ -32,8 +32,8 @@ fall | smoke | car| gun | fire
 ##### 🧩 Model Link & Weights Utility
 Those Python scripts to save model download links and fetch model weights using a model name.
 ## 📌 Files
-1. 'SaveModelLink.py'
-2. 'DownloadModelWeights.py'
+1. SaveModelLink.py
+2. DownloadModelWeights.py
 # 🚀 How to Use
 ```bash   
    python SaveModelLink.py --model <model_name> --url <model_download_url>
