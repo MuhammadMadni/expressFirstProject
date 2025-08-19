@@ -42,5 +42,5 @@ Those Python scripts to save model download links and fetch model weights using 
 ### ▶️ Running the Model   
 Run YOLO detection by giving the video and image source, alert type, and display options.
 ```bash
-python inference.py --source 'rtsp://dl-team:dl@Onstak123@10.39.110.246:554/ch5/main/av_stream.h264' --alert Fire --conf-thres 0.3 --view-img --imgsz 640
+python inference.py --source 'rtsp://dl-team:dl@Onstak123@10.39.110.246:554/ch5/main/av_stream.h264' --alert Fire --conf-thres 0.3 --imgsz 640
 ```
