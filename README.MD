@@ -30,11 +30,11 @@ pip install -r requirements.txt
 fall | smoke | car | gun | fire
 
  
-##### 🧩 Model Link & Weights Utility
+<!-- ##### 🧩 Model Link & Weights Utility
 Utility scripts are provided to save model download links and fetch model weights.
 ## 📌 Files
 1. SaveModelLink.py
-2. DownloadModelWeights.py
+2. DownloadModelWeights.py -->
 # 🚀 How to Use
 ```bash   
    # Save a model download link
