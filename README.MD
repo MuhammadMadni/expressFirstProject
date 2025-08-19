@@ -27,18 +27,8 @@ cd yolov5_deployments/
 pip install -r requirements.txt
 ```
 ### Name of Models
-fall | smoke | car| gun | fire
+fall | smoke | car| gun | fire 
  
-#### 🔐 Crypto Utility ('encryption_class.py')
-This script securely handles data.
-- 🔑 Generate a secure encryption key (saved as `saved_model_links.pkl`)
-- ♻ Load and reuse an existing key
-- 🔒 Encrypt sensitive strings (e.g., URLs, tokens)
-## 📦 Requirements
-Install the required library:
-```bash
-pip install cryptography
-```
 ##### 🧩 Model Link & Weights Utility
 Those Python scripts to save model download links and fetch model weights using a model name.
 ## 📌 Files
