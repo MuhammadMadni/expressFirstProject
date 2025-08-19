@@ -26,8 +26,9 @@ Use your bitbucket security keys to continue.
 cd yolov5_deployments/
 pip install -r requirements.txt
 ```
-### Name of Models
-fall | smoke | car| gun | fire 
+### Available Models
+fall | smoke | car | gun | fire
+
  
 ##### 🧩 Model Link & Weights Utility
 Those Python scripts to save model download links and fetch model weights using a model name.
@@ -36,8 +37,12 @@ Those Python scripts to save model download links and fetch model weights using 
 2. DownloadModelWeights.py
 # 🚀 How to Use
 ```bash   
-   python SaveModelLink.py --model <model_name> --url <model_download_url>
-   python DownloadModelWeights.py --model <model_name> "optional" --name <Model_Weights_name>
+   # Save a model download link
+    python SaveModelLink.py --model <model_name> --url <model_download_url>
+
+    # Download model weights
+    python DownloadModelWeights.py --model <model_name> --name <model_weights_name>
+
 ```
 ### ▶️ Running the Model   
 Run YOLO detection by giving the video and image source, alert type, and display options.
