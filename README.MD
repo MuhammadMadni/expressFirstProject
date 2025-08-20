@@ -24,10 +24,10 @@ The system is designed for real-time performance and can be easily deployed on e
 Use your bitbucket security keys to continue.
 ```bash
 cd yolov5_deployments/
-pip install -r requirements.txt
+pip install -r requirements.txt2
 ```
 ### Available Models
-fall | smoke | car | gun | fire
+fall | smoke | car | gun | fire 
 
  
 <!-- ##### 🧩 Model Link & Weights Utility
@@ -37,10 +37,8 @@ Utility scripts are provided to save model download links and fetch model weight
 2. DownloadModelWeights.py -->
 # 🚀 How to Use
 ```bash   
-   # Save a model download link
     python SaveModelLink.py --model <model_name> --url <model_download_url>
 
-    # Download model weights
     python DownloadModelWeights.py --model <model_name> --name <model_weights_name>
 
 ```
