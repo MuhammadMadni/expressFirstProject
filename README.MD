@@ -37,7 +37,7 @@ Utility scripts are provided to save model download links and fetch model weight
 2. DownloadModelWeights.py -->
 # 🚀 How to Use
 ```bash   
-    python SaveModelLink.py --model <model_name> --url <model_download_url>
+    # python SaveModelLink.py --model <model_name> --url <model_download_url>
 
     python DownloadModelWeights.py --model <model_name> --name <model_weights_name>
 
